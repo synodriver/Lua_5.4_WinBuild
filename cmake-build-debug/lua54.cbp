@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lua54"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua54">
+				<Option output="F:/jhc/lua54/cmake-build-debug/lua54.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 lua54"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua54/fast">
+				<Option output="F:/jhc/lua54/cmake-build-debug/lua54.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 lua54/fast"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/jhc/lua54/main.c">
+			<Option target="lua54"/>
+		</Unit>
+		<Unit filename="F:/jhc/lua54/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

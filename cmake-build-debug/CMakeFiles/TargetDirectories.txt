@@ -1,0 +1,5 @@
+F:/jhc/lua54/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/jhc/lua54/cmake-build-debug/CMakeFiles/lualib.dir
+F:/jhc/lua54/cmake-build-debug/CMakeFiles/lua.dir
+F:/jhc/lua54/cmake-build-debug/CMakeFiles/luac.dir
+F:/jhc/lua54/cmake-build-debug/CMakeFiles/rebuild_cache.dir

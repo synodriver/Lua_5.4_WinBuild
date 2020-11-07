@@ -1,0 +1,4 @@
+"E:\clion\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe -DCMAKE_C_COMPILER=F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe -DCMAKE_CXX_COMPILER=F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe -G "CodeBlocks - NMake Makefiles" F:\jhc\lua54
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/jhc/lua54/cmake-build-release

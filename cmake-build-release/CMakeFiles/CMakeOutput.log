@@ -1,0 +1,49 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27032.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.16.27032.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "F:/jhc/lua54/cmake-build-release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/jhc/lua54/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /nologo cmTC_1985a\fast && 	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\nmake.exe  -f CMakeFiles\cmTC_1985a.dir\build.make /nologo -L                  CMakeFiles\cmTC_1985a.dir\build
+Building C object CMakeFiles/cmTC_1985a.dir/testCCompiler.c.obj
+	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe @C:\Users\jhc\AppData\Local\Temp\nm4668.tmp
+testCCompiler.c
+Linking C executable cmTC_1985a.exe
+	"E:\clion\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_1985a.dir --rc=F:\WINDOW~1\10\bin\100177~1.0\x64\rc.exe --mt=F:\WINDOW~1\10\bin\100177~1.0\x64\mt.exe --manifests  -- F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_1985a.dir\objects1.rsp @C:\Users\jhc\AppData\Local\Temp\nm4772.tmp
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/jhc/lua54/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /nologo cmTC_ee588\fast && 	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\nmake.exe  -f CMakeFiles\cmTC_ee588.dir\build.make /nologo -L                  CMakeFiles\cmTC_ee588.dir\build
+Building C object CMakeFiles/cmTC_ee588.dir/CMakeCCompilerABI.c.obj
+	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe @C:\Users\jhc\AppData\Local\Temp\nm50C8.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_ee588.exe
+	"E:\clion\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_ee588.dir --rc=F:\WINDOW~1\10\bin\100177~1.0\x64\rc.exe --mt=F:\WINDOW~1\10\bin\100177~1.0\x64\mt.exe --manifests  -- F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_ee588.dir\objects1.rsp @C:\Users\jhc\AppData\Local\Temp\nm51A4.tmp
+
+
+
