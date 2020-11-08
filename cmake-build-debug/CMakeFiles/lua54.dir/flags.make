@@ -4,7 +4,7 @@
 # compile C with F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe
 C_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd  
 
-C_DEFINES = 
+C_DEFINES = -Dlua54_EXPORTS
 
-C_INCLUDES = 
+C_INCLUDES = -IF:\jhc\lua54\src 
 

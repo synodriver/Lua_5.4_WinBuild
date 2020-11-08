@@ -27,14 +27,65 @@
 					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lua_static">
+				<Option output="F:/jhc/lua54/build/staticbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 lua_static"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua_static/fast">
+				<Option output="F:/jhc/lua54/build/staticbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 lua_static/fast"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="lualib">
-				<Option output="F:/jhc/lua54/build/lua54.lib" prefix_auto="0" extension_auto="0"/>
+				<Option output="F:/jhc/lua54/build/staticbuild/lua54.lib" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -52,13 +103,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="lualib/fast">
-				<Option output="F:/jhc/lua54/build/lua54.lib" prefix_auto="0" extension_auto="0"/>
+				<Option output="F:/jhc/lua54/build/staticbuild/lua54.lib" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -75,14 +127,115 @@
 					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lua">
-				<Option output="F:/jhc/lua54/build/lua.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/build"/>
+			<Target title="lua54">
+				<Option output="F:/jhc/lua54/build/dynamicbuild/lua54.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 lua54"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua54/fast">
+				<Option output="F:/jhc/lua54/build/dynamicbuild/lua54.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 lua54/fast"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="luac_static">
+				<Option output="F:/jhc/lua54/build/staticbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 luac_static"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="luac_static/fast">
+				<Option output="F:/jhc/lua54/build/staticbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 luac_static/fast"/>
+					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua">
+				<Option output="F:/jhc/lua54/build/dynamicbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -100,13 +253,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="lua/fast">
-				<Option output="F:/jhc/lua54/build/lua.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/build"/>
+				<Option output="F:/jhc/lua54/build/dynamicbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -124,13 +278,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="luac">
-				<Option output="F:/jhc/lua54/build/luac.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/build"/>
+				<Option output="F:/jhc/lua54/build/dynamicbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -148,13 +303,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="luac/fast">
-				<Option output="F:/jhc/lua54/build/luac.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/build"/>
+				<Option output="F:/jhc/lua54/build/dynamicbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/jhc/lua54/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DLUA_BUILD_AS_DLL"/>
+					<Add directory="F:/jhc/lua54/src"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
 					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
@@ -184,168 +340,223 @@
 		</Build>
 		<Unit filename="F:/jhc/lua54/src/lapi.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lapi.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lauxlib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lauxlib.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lbaselib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lcode.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lcode.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lcorolib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lctype.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lctype.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ldblib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ldebug.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ldebug.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ldo.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ldo.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ldump.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lfunc.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lfunc.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lgc.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lgc.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/linit.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/liolib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/llex.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/llex.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lmathlib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lmem.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lmem.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/loadlib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lobject.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lobject.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lopcodes.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lopcodes.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/loslib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lparser.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lparser.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lstate.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lstate.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lstring.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lstring.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lstrlib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ltable.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ltable.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ltablib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ltm.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/ltm.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lua.c">
+			<Option target="lua_static"/>
 			<Option target="lua"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lua.h">
+			<Option target="lua_static"/>
 			<Option target="lua"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/luac.c">
+			<Option target="luac_static"/>
 			<Option target="luac"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lundump.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lundump.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lutf8lib.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lvm.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lvm.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lzio.c">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/src/lzio.h">
 			<Option target="lualib"/>
+			<Option target="lua54"/>
 		</Unit>
 		<Unit filename="F:/jhc/lua54/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

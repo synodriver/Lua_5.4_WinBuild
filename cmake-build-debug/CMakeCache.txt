@@ -110,7 +110,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=lua
+CMAKE_PROJECT_NAME:STATIC=luadll
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=F:/Windows Kits/10/bin/10.0.17763.0/x64/rc.exe
@@ -183,6 +183,21 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Build Lua library as Dll.
+LUA_BUILD_AS_DLL:BOOL=OFF
+
+//Build wLua interpretter without console output.
+LUA_BUILD_WLUA:BOOL=ON
+
+//Fix: dynamic libraries not enabled; check your Lua installation.
+LUA_DL_DLL:BOOL=ON
+
+//Windows specific build.
+LUA_USE_WINDOWS:BOOL=ON
+
+//Windows specific build.
+LUA_WIN:BOOL=ON
+
 //Value Computed by CMake
 lua54_BINARY_DIR:STATIC=F:/jhc/lua54/cmake-build-debug
 
@@ -194,6 +209,12 @@ lua_BINARY_DIR:STATIC=F:/jhc/lua54/cmake-build-debug
 
 //Value Computed by CMake
 lua_SOURCE_DIR:STATIC=F:/jhc/lua54
+
+//Value Computed by CMake
+luadll_BINARY_DIR:STATIC=F:/jhc/lua54/cmake-build-debug
+
+//Value Computed by CMake
+luadll_SOURCE_DIR:STATIC=F:/jhc/lua54
 
 
 ########################

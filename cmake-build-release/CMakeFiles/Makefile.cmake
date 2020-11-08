@@ -43,6 +43,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lualib.dir/DependInfo.cmake"
+  "CMakeFiles/lua54.dir/DependInfo.cmake"
   "CMakeFiles/lua.dir/DependInfo.cmake"
   "CMakeFiles/luac.dir/DependInfo.cmake"
   )
