@@ -1,7 +1,7 @@
-## Lua static build with CMake
-    This is Lua 5.4.1, released on 30 Sep 2020.
+## Lua build with CMake and action
+    The current release is Lua 5.4.3, released on 29 Mar 2021.
     
     For installation instructions, license details, and
     further information about Lua, see doc/readme.html.
     
-    See build for binary.
+    See action for binary.
