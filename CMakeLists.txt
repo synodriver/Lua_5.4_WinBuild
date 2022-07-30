@@ -1,11 +1,13 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.16)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
+set(LUA_VERSION lua-5.4.4)
 
 project(Lua C)
 
-file(GLOB LIB_SOURCES src/*.c)
-list(REMOVE_ITEM LIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/lua.c" "${CMAKE_CURRENT_SOURCE_DIR}/src/luac.c")
+include_directories( "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src")
+file(GLOB LIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/*.c")
+list(REMOVE_ITEM LIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/lua.c" "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/onelua.c")
 
 message(STATUS find sources)
 foreach (_source IN LISTS LIB_SOURCES)
@@ -14,15 +16,15 @@ endforeach ()
 
 set(
         LUA_SOURCES
-        src/lua.c
+        "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/lua.c"
 )
 
 set(
         LUAC_SOURCES
-        src/luac.c
+        "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/luac.c"
 )
 
-file(GLOB LUA_INCLUDES src/*.h src/*.hpp)
+file(GLOB LUA_INCLUDES "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/*.h" "${CMAKE_CURRENT_SOURCE_DIR}/${LUA_VERSION}/src/*.hpp")
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
     add_definitions("/D _CRT_SECURE_NO_WARNINGS")
@@ -34,6 +36,8 @@ set_target_properties(lualib PROPERTIES OUTPUT_NAME lua)
 if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
     target_compile_definitions(lualib PUBLIC "LUA_BUILD_AS_DLL")
     message(STATUS LUA_BUILD_AS_DLL)
+else()
+    target_link_libraries(lualib m)
 endif ()
 # Lua executable
 add_executable(lua ${LUA_SOURCES})
