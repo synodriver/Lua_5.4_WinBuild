@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "../build/lua.exe"
-  "../build/lua.exe.manifest"
-  "../build/lua.lib"
-  "../build/lua.pdb"
-  "CMakeFiles/lua.dir/src/lua.c.obj"
+  "CMakeFiles/lua.dir/lua-5.4.6/src/lua.c.obj"
+  "CMakeFiles/lua.dir/lua-5.4.6/src/lua.c.obj.d"
+  "lua.exe"
+  "lua.exe.manifest"
+  "lua.lib"
+  "lua.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

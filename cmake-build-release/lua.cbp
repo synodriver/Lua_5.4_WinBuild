@@ -2,563 +2,417 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="lua"/>
+		<Option title="Lua"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 all"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lua_static">
-				<Option output="F:/jhc/lua54/build/staticbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lua_static"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lua_static/fast">
-				<Option output="F:/jhc/lua54/build/staticbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lua_static/fast"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lualib">
-				<Option output="F:/jhc/lua54/build/staticbuild/lua54.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option output="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/lua.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="3"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lualib"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 lualib"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lualib/fast">
-				<Option output="F:/jhc/lua54/build/staticbuild/lua54.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lualib/fast"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lua54">
-				<Option output="F:/jhc/lua54/build/dynamicbuild/lua54.dll" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option output="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/lua.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lua54"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lua54/fast">
-				<Option output="F:/jhc/lua54/build/dynamicbuild/lua54.dll" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lua54/fast"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="luac_static">
-				<Option output="F:/jhc/lua54/build/staticbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 luac_static"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="luac_static/fast">
-				<Option output="F:/jhc/lua54/build/staticbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 luac_static/fast"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 lualib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lua">
-				<Option output="F:/jhc/lua54/build/dynamicbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option output="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lua"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 lua"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lua/fast">
-				<Option output="F:/jhc/lua54/build/dynamicbuild/lua.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option output="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/lua.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 lua/fast"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 lua/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="luac">
-				<Option output="F:/jhc/lua54/build/dynamicbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option output="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/luac.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 luac"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 luac"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="luac/fast">
-				<Option output="F:/jhc/lua54/build/dynamicbuild/luac.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option output="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/luac.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add option="-DLUA_BUILD_AS_DLL"/>
-					<Add directory="F:/jhc/lua54/src"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="F:\vs2017\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="F:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 luac/fast"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 luac/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/jhc/lua54/cmake-build-release"/>
+				<Option working_dir="E:/pyproject/Lua_5.4_WinBuild/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f F:\jhc\lua54\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\pyproject\Lua_5.4_WinBuild\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/jhc/lua54/src/lapi.c">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lapi.c">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lapi.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lauxlib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lauxlib.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lbaselib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lcode.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lcode.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lcorolib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lctype.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lctype.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ldblib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ldebug.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ldebug.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ldo.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ldo.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ldump.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lfunc.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lfunc.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lgc.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lgc.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/linit.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/liolib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/llex.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/llex.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lmathlib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lmem.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lmem.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/loadlib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lobject.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lobject.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lopcodes.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lopcodes.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/loslib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lparser.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lparser.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lstate.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lstate.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lstring.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lstring.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lstrlib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ltable.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ltable.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ltablib.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ltm.c">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/ltm.h">
-			<Option target="lualib"/>
-			<Option target="lua54"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lua.c">
-			<Option target="lua_static"/>
-			<Option target="lua"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lua.h">
-			<Option target="lua_static"/>
-			<Option target="lua"/>
-		</Unit>
-		<Unit filename="F:/jhc/lua54/src/luac.c">
-			<Option target="luac_static"/>
 			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lundump.c">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lapi.h">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lundump.h">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lauxlib.c">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lutf8lib.c">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lauxlib.h">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lvm.c">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lbaselib.c">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lvm.h">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lcode.c">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lzio.c">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lcode.h">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/src/lzio.h">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lcorolib.c">
 			<Option target="lualib"/>
-			<Option target="lua54"/>
+			<Option target="luac"/>
 		</Unit>
-		<Unit filename="F:/jhc/lua54/CMakeLists.txt">
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lctype.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lctype.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldblib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldebug.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldebug.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldo.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldo.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldump.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lfunc.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lfunc.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lgc.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lgc.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/linit.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/liolib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/llex.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/llex.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lmathlib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lmem.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lmem.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/loadlib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lobject.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lobject.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lopcodes.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lopcodes.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/loslib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lparser.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lparser.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstate.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstate.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstring.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstring.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstrlib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltable.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltable.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltablib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltm.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltm.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lua.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lua.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/luac.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lundump.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lundump.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lutf8lib.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lvm.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lvm.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lzio.c">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lzio.h">
+			<Option target="lualib"/>
+			<Option target="luac"/>
+		</Unit>
+		<Unit filename="E:/pyproject/Lua_5.4_WinBuild/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,0 +1,45 @@
+D:\toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" -S E:\pyproject\Lua_5.4_WinBuild -B E:\pyproject\Lua_5.4_WinBuild\cmake-build-debug
+-- The C compiler identification is MSVC 19.34.31937.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- findsources
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lapi.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lauxlib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lbaselib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lcode.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lcorolib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lctype.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ldblib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ldebug.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ldo.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ldump.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lfunc.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lgc.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/linit.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/liolib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/llex.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lmathlib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lmem.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/loadlib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lobject.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lopcodes.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/loslib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lparser.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lstate.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lstring.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lstrlib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ltable.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ltablib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/ltm.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/luac.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lundump.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lutf8lib.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lvm.c
+-- E:/pyproject/Lua_5.4_WinBuild/lua-5.4.4/src/lzio.c
+-- LUA_BUILD_AS_DLL
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/pyproject/Lua_5.4_WinBuild/cmake-build-debug

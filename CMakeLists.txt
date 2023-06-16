@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 set(CMAKE_C_STANDARD 11)
-set(LUA_VERSION lua-5.4.4)
+set(LUA_VERSION lua-5.4.6)
 
 project(Lua C)
 

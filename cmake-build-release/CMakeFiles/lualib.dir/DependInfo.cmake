@@ -1,47 +1,46 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "F:/jhc/lua54/src/lapi.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lapi.c.obj"
-  "F:/jhc/lua54/src/lauxlib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lauxlib.c.obj"
-  "F:/jhc/lua54/src/lbaselib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lbaselib.c.obj"
-  "F:/jhc/lua54/src/lcode.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lcode.c.obj"
-  "F:/jhc/lua54/src/lcorolib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lcorolib.c.obj"
-  "F:/jhc/lua54/src/lctype.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lctype.c.obj"
-  "F:/jhc/lua54/src/ldblib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ldblib.c.obj"
-  "F:/jhc/lua54/src/ldebug.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ldebug.c.obj"
-  "F:/jhc/lua54/src/ldo.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ldo.c.obj"
-  "F:/jhc/lua54/src/ldump.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ldump.c.obj"
-  "F:/jhc/lua54/src/lfunc.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lfunc.c.obj"
-  "F:/jhc/lua54/src/lgc.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lgc.c.obj"
-  "F:/jhc/lua54/src/linit.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/linit.c.obj"
-  "F:/jhc/lua54/src/liolib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/liolib.c.obj"
-  "F:/jhc/lua54/src/llex.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/llex.c.obj"
-  "F:/jhc/lua54/src/lmathlib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lmathlib.c.obj"
-  "F:/jhc/lua54/src/lmem.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lmem.c.obj"
-  "F:/jhc/lua54/src/loadlib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/loadlib.c.obj"
-  "F:/jhc/lua54/src/lobject.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lobject.c.obj"
-  "F:/jhc/lua54/src/lopcodes.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lopcodes.c.obj"
-  "F:/jhc/lua54/src/loslib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/loslib.c.obj"
-  "F:/jhc/lua54/src/lparser.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lparser.c.obj"
-  "F:/jhc/lua54/src/lstate.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lstate.c.obj"
-  "F:/jhc/lua54/src/lstring.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lstring.c.obj"
-  "F:/jhc/lua54/src/lstrlib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lstrlib.c.obj"
-  "F:/jhc/lua54/src/ltable.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ltable.c.obj"
-  "F:/jhc/lua54/src/ltablib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ltablib.c.obj"
-  "F:/jhc/lua54/src/ltm.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/ltm.c.obj"
-  "F:/jhc/lua54/src/lundump.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lundump.c.obj"
-  "F:/jhc/lua54/src/lutf8lib.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lutf8lib.c.obj"
-  "F:/jhc/lua54/src/lvm.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lvm.c.obj"
-  "F:/jhc/lua54/src/lzio.c" "F:/jhc/lua54/cmake-build-release/CMakeFiles/lualib.dir/src/lzio.c.obj"
-  )
-set(CMAKE_C_COMPILER_ID "MSVC")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../src"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lapi.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lapi.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lapi.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lauxlib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lauxlib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lauxlib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lbaselib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lbaselib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lbaselib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lcode.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lcode.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lcode.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lcorolib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lcorolib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lcorolib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lctype.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lctype.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lctype.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldblib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldblib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldblib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldebug.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldebug.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldebug.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldo.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldo.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldo.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ldump.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldump.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ldump.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lfunc.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lfunc.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lfunc.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lgc.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lgc.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lgc.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/linit.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/linit.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/linit.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/liolib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/liolib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/liolib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/llex.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/llex.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/llex.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lmathlib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lmathlib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lmathlib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lmem.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lmem.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lmem.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/loadlib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/loadlib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/loadlib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lobject.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lobject.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lobject.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lopcodes.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lopcodes.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lopcodes.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/loslib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/loslib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/loslib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lparser.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lparser.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lparser.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstate.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lstate.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lstate.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstring.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lstring.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lstring.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lstrlib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lstrlib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lstrlib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltable.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ltable.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ltable.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltablib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ltablib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ltablib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/ltm.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/ltm.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/ltm.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/luac.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/luac.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/luac.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lundump.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lundump.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lundump.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lutf8lib.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lutf8lib.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lutf8lib.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lvm.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lvm.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lvm.c.obj.d"
+  "E:/pyproject/Lua_5.4_WinBuild/lua-5.4.6/src/lzio.c" "CMakeFiles/lualib.dir/lua-5.4.6/src/lzio.c.obj" "msvc" "CMakeFiles/lualib.dir/lua-5.4.6/src/lzio.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,8 +1,8 @@
-# Install script for directory: F:/jhc/lua54
+# Install script for directory: E:/pyproject/Lua_5.4_WinBuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lua")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Lua")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/jhc/lua54/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/pyproject/Lua_5.4_WinBuild/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

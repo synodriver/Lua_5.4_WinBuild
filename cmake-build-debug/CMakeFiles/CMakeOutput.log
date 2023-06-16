@@ -1,16 +1,16 @@
-The system is: Windows - 10.0.18363 - AMD64
+The system is: Windows - 10.0.19044 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe 
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe 
 Build flags: 
 Id flags:  
 
 The output was:
 0
-用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27032.1 版
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
 版权所有(C) Microsoft Corporation。保留所有权利。
 
 CMakeCCompilerId.c
-Microsoft (R) Incremental Linker Version 14.16.27032.1
+Microsoft (R) Incremental Linker Version 14.34.31937.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /out:CMakeCCompilerId.exe 
@@ -21,29 +21,18 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "F:/jhc/lua54/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
-
-Determining if the C compiler works passed with the following output:
-Change Dir: F:/jhc/lua54/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /nologo cmTC_7af45\fast && 	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\nmake.exe  -f CMakeFiles\cmTC_7af45.dir\build.make /nologo -L                  CMakeFiles\cmTC_7af45.dir\build
-Building C object CMakeFiles/cmTC_7af45.dir/testCCompiler.c.obj
-	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe @C:\Users\jhc\AppData\Local\Temp\nm2310.tmp
-testCCompiler.c
-Linking C executable cmTC_7af45.exe
-	"E:\clion\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7af45.dir --rc=F:\WINDOW~1\10\bin\100177~1.0\x64\rc.exe --mt=F:\WINDOW~1\10\bin\100177~1.0\x64\mt.exe --manifests  -- F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_7af45.dir\objects1.rsp @C:\Users\jhc\AppData\Local\Temp\nm2515.tmp
-
-
+The C compiler identification is MSVC, found in "E:/pyproject/Lua_5.4_WinBuild/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: F:/jhc/lua54/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/pyproject/Lua_5.4_WinBuild/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6qbyfk
 
-Run Build Command(s):F:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /nologo cmTC_00e03\fast && 	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\nmake.exe  -f CMakeFiles\cmTC_00e03.dir\build.make /nologo -L                  CMakeFiles\cmTC_00e03.dir\build
-Building C object CMakeFiles/cmTC_00e03.dir/CMakeCCompilerABI.c.obj
-	F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe @C:\Users\jhc\AppData\Local\Temp\nm30BC.tmp
-CMakeCCompilerABI.c
-Linking C executable cmTC_00e03.exe
-	"E:\clion\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_00e03.dir --rc=F:\WINDOW~1\10\bin\100177~1.0\x64\rc.exe --mt=F:\WINDOW~1\10\bin\100177~1.0\x64\mt.exe --manifests  -- F:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_00e03.dir\objects1.rsp @C:\Users\jhc\AppData\Local\Temp\nm3254.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_b98a3\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_b98a3.dir\build.make /nologo -L                  CMakeFiles\cmTC_b98a3.dir\build
+Building C object CMakeFiles/cmTC_b98a3.dir/CMakeCCompilerABI.c.obj
+	D:\toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_b98a3.dir\CMakeCCompilerABI.c.obj.d --working-dir=E:\pyproject\Lua_5.4_WinBuild\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-6qbyfk --filter-prefix="注意: 包含文件:  " -- C:\PROGRA~1\MICROS~3\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe @C:\Users\WIN10\AppData\Local\Temp\nm8506.tmp
+CMakeCCompilerABI.c
+?鈷? 鍖呭惈鏂囦欢:  D:\toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCompilerABI.h
+Linking C executable cmTC_b98a3.exe
+	D:\toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_b98a3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~3\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b98a3.dir\objects1 @C:\Users\WIN10\AppData\Local\Temp\nm867D.tmp
 
 
 
