@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 set(CMAKE_C_STANDARD 11)
-set(LUA_VERSION lua-5.4.7)
+set(LUA_VERSION lua-5.4.8)
 
 project(Lua C)
 
@@ -38,7 +38,9 @@ if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
     message(STATUS LUA_BUILD_AS_DLL)
 else()
     target_link_libraries(lualib m)
+    add_definitions(-DLUA_USE_DLOPEN)
 endif ()
+
 # Lua executable
 add_executable(lua ${LUA_SOURCES})
 target_link_libraries(lua lualib)
